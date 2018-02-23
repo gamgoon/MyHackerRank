@@ -15,6 +15,7 @@ public class ArraysDs {
         for (int i=n-1;i>=0;i--) {
             System.out.printf("%d ", arr[i]);
         }
+        in.close();
     }
 }
 

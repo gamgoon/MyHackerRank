@@ -46,6 +46,7 @@ public class Arrays2DDs {
             }
         }
         System.out.println(maxSum);
+        in.close();
     }
 }
 
