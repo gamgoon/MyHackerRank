@@ -1,7 +1,7 @@
 package main.java.datastructures.linkedlist;
 
 public class Delete {
-    private static Node delete(Node head, int position) {
+    public static Node delete(Node head, int position) {
         if (position == 0)
             return head.next;
 
