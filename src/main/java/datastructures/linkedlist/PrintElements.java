@@ -14,7 +14,7 @@ package main.java.datastructures.linkedlist;
 // You only need to complete this method.
 
 public class PrintElements {
-    static void print(Node head) {
+    public static void print(Node head) {
         if (head == null)
             return;
         System.out.println(head.data);
