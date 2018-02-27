@@ -5,7 +5,7 @@ public class GetNodeValue {
 
         Node resultNode = head;
         int index = 0;
-        while (head.next != null) {
+        while (head != null) {
             head = head.next;
             if (index > n)
                 resultNode = resultNode.next;
